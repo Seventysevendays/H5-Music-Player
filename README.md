@@ -1,5 +1,7 @@
 # H5音乐播放器
 > * 原生javascript 
+> * less
+> * Zepto
 > * H5/CSS3
 > * 模块化编程思想
 > * gulp打包工具
