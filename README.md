@@ -14,15 +14,16 @@
 ## 项目总结
 一个移动端的播放器，打包工具用的是gulp，使用zepto框架，结合ajax进行的模块化开发
 模块化开发思想：高内聚，一个模块是一个类似功能的集合，不同模块负责不同的功能，易于开发和维护；低耦合：形容模块之间的相互依赖关系，模块彼此单独维护和开发以及使用和不适用不影响其他模块
-模块形式：(function ($, root) {
-             function constructor () {             
-             }
-             constructor.prototype = { 
-              fn1 : function () {},
-              fn2 : function () {}...
-             }
-             root.constructor = constructor;
-         })(window.Zepto, window.player || (window.player = {}))
+模块形式：
+(function ($, root) {
+   function constructor () {             
+   }
+   constructor.prototype = { 
+    fn1 : function () {},
+    fn2 : function () {}...
+   }
+   root.constructor = constructor;
+})(window.Zepto, window.player || (window.player = {}))
 #### index.js：统领全局
 > * bindClick()：控制上下一曲、歌曲暂停播放、菜单的弹出和消失
 > * bindTouch()：控制拖拽改变歌曲进度
@@ -59,7 +60,7 @@
 #### gaussBlur.js：模糊背景图片处理函数
 ## 项目展示
 #### 播放
-![play](https://github.com/Seventysevendays/H5-Music-Player/tree/master/captures/front.png)
+![play](https://github.com/Seventysevendays/H5-Music-Player/blob/master/captures/front.png)
 #### 列表
-![play](https://github.com/Seventysevendays/H5-Music-Player/tree/master/captures/list.png)
+![list](https://github.com/Seventysevendays/H5-Music-Player/blob/master/captures/list.png)
 
