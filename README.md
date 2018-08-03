@@ -59,8 +59,12 @@
 > * parseLrc(lrc)：将歌词字符串转换成时间和对应歌词的对象
 #### gaussBlur.js：模糊背景图片处理函数
 ## 项目展示
+
 #### 播放
-![play](https://github.com/Seventysevendays/H5-Music-Player/blob/master/captures/front.png)
+
+<img src="https://github.com/Seventysevendays/H5-Music-Player/blob/master/captures/front.png" width="400"/>
+
 #### 列表
-![list](https://github.com/Seventysevendays/H5-Music-Player/blob/master/captures/list.png)
+
+<img src="https://github.com/Seventysevendays/H5-Music-Player/blob/master/captures/list.png" width="400"/>
 
